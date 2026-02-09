@@ -1,6 +1,4 @@
-// Пин, к которому подключен светодиод
-const int ledPin = 5; // Встроенный светодиод на большинстве Arduino
-
+const int ledPin = 5; 
 void setup() {
   // Инициализация UART
   Serial.begin(115200);
